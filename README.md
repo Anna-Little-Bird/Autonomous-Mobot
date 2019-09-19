@@ -1,4 +1,5 @@
-# Autonomous-Mobot
+# Autonomous Mobot
+
 The aim of this project was to design the Autonomous Robot (or the Mobot) based on Arduino Uno board. The Mobot has to perform a set of tasks:
 - move around the specified area avoiding hitting the obstacles;
 - detect the blue cube within the working area;
@@ -10,7 +11,8 @@ For obstacle avoidance an ultrasonic sensor HCSR04 was used. In order to control
 
 The moving part consisted of motor shield L298N and 4 wheels chassis.
 
-To implement the above requirements the following state diagram was designed: link...
+To implement the above requirements the following state diagram was designed:
+![state diagram](https://github.com/Anna-Little-Bird/Autonomous-Mobot/blob/master/Photos/State%20Diagram.jpg)
 
 At the start of the program the Mobot goes into SCAN state. In this state it scans the area in front of it within 120° by rotating ultrasonic sensor to 5 angles: 30°, 60°, 90°, 120° and 150°. Due to the errors from ultrasonic sensor the measurements are performed 2 times. If the measured distance at any angle is less than 35cm the Mobot goes into POSITION state. Otherwise it will continue scanning the surface.
 
