@@ -1,6 +1,6 @@
 # Autonomous Mobot
 
-![mobot](https://github.com/Anna-Little-Bird/Autonomous-Mobot/blob/master/Photos/1.JPG)
+![mobot](https://github.com/Anna-Little-Bird/Autonomous-Mobot/blob/master/Photos/1_small.JPG)
 
 The aim of this project was to design the Autonomous Robot (or the Mobot) based on Arduino Uno board. The Mobot has to perform a set of tasks:
 - move around the specified area avoiding hitting the obstacles;
